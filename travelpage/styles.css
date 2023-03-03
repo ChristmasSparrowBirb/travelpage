@@ -1,0 +1,117 @@
+@charset "UTF-8";
+body {
+    background-image: url(sandy.jpg);
+    background-size: cover;
+}
+header {
+    width: 790px;
+    height: 254px;
+    background-repeat: no-repeat;
+    background-image: url(logo.png);
+}
+
+#container {
+    width: 790px;
+    height: auto;
+    background-color: #DCAE96;
+    margin: auto;
+}
+aside {
+    float: left;
+    width: 100px;
+    height: 1590px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+main {
+    float: left;
+    height: 1590px;
+    width: 510px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+footer {
+    clear: both;
+    padding-left: 10px;
+    height: 35px;
+}
+h1 {
+	font-family: "new-hero", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	color: #8CDAF9;
+}
+h2 {
+	font-family: "new-hero", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	color: #8CDAF9;
+}
+p {
+    font-family: "new-order", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #121212;	
+}
+img {
+	float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+article {
+    padding-top: 0px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    margin: 0px 70px 0px 0px;
+    width: 100px;
+    font-family: "scrapbooker-script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25pt;
+}
+#container nav ul {
+	margin: 50px 50px 50px 150px;
+}
+a:link {
+    color: #9AD7F9;
+    text-decoration: none;
+    padding: 6px;
+}
+a:visited {
+    color: #3C91B4;
+    text-decoration: none;
+}
+a:hover {
+    color: #57C4F0;
+    text-decoration: none;
+    background-color: #A3E4EF;
+	padding: 6px;
+    border-radius: 12px;
+}
+a:active {
+    color: #C6EBFA;
+    text-decoration: none;
+}
+.submit_btn {
+    width: 190px;
+    height: 30px;
+    background-color: #8BD0EF;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 11pt;
+}
+.submit_btn:hover {
+	-webkit-box-shadow: 6px 6px 35px 1px #121212;
+    box-shadow: 6px 6px 35px 1px #121212;
+}

@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>travelcontact</title>
+<link href="styles.css" rel="stylesheet" type="text/css" media = "screen">
+<link rel="stylesheet" href="https://use.typekit.net/uve3ttm.css">
+<link rel="stylesheet" href="https://use.typekit.net/uve3ttm.css">
+<link rel="stylesheet" href="https://use.typekit.net/uve3ttm.css">
+<link rel="stylesheet" href="https://use.typekit.net/uve3ttm.css">
+<style>
+	main {
+	  height: 700px;
+	}
+	aside {
+	  height: 900px;
+	}
+</style>
+</head>
+<body>
+<div id ="container">
+<header></header>
+	<nav>
+		<ul>
+			<li><a href="travelabout.html">About</a></li>
+			<li><a href="travelpage.html">Blog</a></li>
+			<li><a href="travelcontact.html">Contact</a></li>
+		</ul>
+	</nav>
+<aside><h3>This blog contains a lot of stuff about the beach, such as the best ones to go to and what to do there!</h3>
+		<h3>Use this website to plan your next vacation!</h3>
+		<h3>By Nicole Ferrari</h3>
+	</aside>
+<main>
+	<h1>Contact Me!</h1>
+	<form>
+		<p>Your Name: <input name="user_name" type="text" id="user_name" value="Your first and last name here" size="50"></p>
+		<p>Your Email: <input name="user_email" type="email" id="user_email" value="Your email here" size="50"></p>
+		<p>Leave Me a Message:<br>
+			<textarea name="user_comment" cols="65" rows="20" id="user_comment"></textarea></p>
+	  <p>How did you hear about this blog?<br>
+		  <label>
+		    <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_0">
+		    Search Engine</label>
+		  <br>
+		  <label>
+		    <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_1">
+		    Social Media</label>
+		  <br>
+		  <label>
+		    <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_2">
+		    Friend</label>
+		  <br>
+		  <label>
+		    <input type="radio" name="RadioGroup1" value="radio" id="RadioGroup1_3">
+		    Business Card</label>
+		  <br>
+		</p>
+			<input type="submit" class="submit_btn" formaction="commentbox.php" formmethod="POST" value="Submit your response here">
+    </form>
+</main>
+<footer><h3>Thanks for reading! Hope this website helped you with your next beach vacation!</h3></footer>
+</div>
+</body>
+</html>
